@@ -1,0 +1,49 @@
+body 
+{
+	background-color: #839192 ;
+	font-family: American Typewriter;
+	font-size: 50px;
+}
+input 
+{
+	font-family: Cambria;
+	font-size: 30px;
+}
+
+/* ---------- LOGIN ----------*/
+#login 
+{
+	margin: 100px auto;
+	width: 400px;
+}
+#login h2 
+{
+	background-color: white;
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	padding: 100px;
+}
+
+loginfildset
+{
+	background-color: black;
+	padding: 50px;
+} 
+#loginfildset input[type="email"], #loginfildset input [type="password"]
+{
+		border: none;
+		background-color: black;
+		color: black;
+		padding: 20px;
+		width: 800px;
+}
+#loginfildset input [type="submit"]
+{
+	background-color: white;
+	color: black;
+	display: block;
+	margin: 0 auto;
+	padding: 60px;
+	width: 300px;
+}
